@@ -1,0 +1,20 @@
+1. Conclusiones sobre las Variables de Entorno
+Definición de Variables de Entorno
+Las variables de entorno son configuraciones que permiten personalizar el comportamiento de una aplicación 
+sin necesidad de alterar el código fuente. Resultan esenciales para manejar datos delicados o específicos 
+de un entorno, como credenciales de acceso, configuraciones de bases de datos y rutas de servicio web.
+
+Método de Carga
+Para incorporar estas variables, se empleó la biblioteca python-dotenv, la cual facilita la lectura 
+de variables desde archivos .env, como .env.dev para entornos de desarrollo y .env.pro para producción, 
+asegurando así una adecuada separación de configuraciones.
+
+Acceso en Python
+Se aprendió a acceder a estas variables utilizando la función os.getenv() de la biblioteca os, 
+lo que permite recuperar los valores almacenados de manera eficiente.
+
+2. Gestión de Archivos .env
+Se elaboraron y administraron archivos .env específicos para los distintos entornos 
+(desarrollo y producción). Este proceso incluyó la correcta estructuración de estos archivos y 
+su configuración, garantizando que cada entorno opere sin conflictos y manteniendo la integridad 
+de la aplicación.

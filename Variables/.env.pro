@@ -1,0 +1,4 @@
+USER_NAME=Andres_Macias_pro
+API_KEY=asdfk_pro
+EMAIL=andresmacias978@gmail.com_pro
+DATABASE_URL=mi_dataset_pro
